@@ -3,18 +3,70 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Psykin — a new space for thoughtful work, coming soon." />
-    <title>Psykin — Coming Soon</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>◌</text></svg>" />
+    <meta name="description" content="Psykin is a gentle space for thoughtful skincare, healthier habits, and feeling at home in your skin." />
+    <meta name="theme-color" content="#f8eee9" />
+    <title>Psykin — Feel at home in your skin</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✿</text></svg>" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="assets/js/main.js" defer></script>
   </head>
   <body>
-    <main class="page-shell">
-      <p class="eyebrow">Psykin</p>
-      <h1>A thoughtful new space is taking shape.</h1>
-      <p class="intro">Psykin.co is coming soon.</p>
-      <p class="status" aria-live="polite" data-year></p>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Psykin home"><span class="brand-mark" aria-hidden="true">P</span><span>Psykin</span></a>
+      <nav aria-label="Primary navigation"><a href="#philosophy">Our philosophy</a><a href="#rituals">Little rituals</a></nav>
+      <a class="button button-small" href="#begin">Begin gently</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Skin, mind & everyday care</p>
+          <h1 id="hero-title">Feel at home in your skin.</h1>
+          <p class="hero-intro">A softer approach to dermatology—clear guidance, kind routines, and small steps that help you feel good in the skin you’re in.</p>
+          <div class="hero-actions"><a class="button" href="#begin">Start your journey</a><a class="text-link" href="#philosophy">Why Psykin <span aria-hidden="true">→</span></a></div>
+        </div>
+        <div class="hero-art" aria-label="Abstract pastel illustration of calm, healthy skin">
+          <div class="sun-shape"></div>
+          <div class="portrait-shape"><span class="portrait-eye"></span><span class="portrait-smile"></span><span class="portrait-cheek"></span></div>
+          <div class="leaf leaf-one"></div><div class="leaf leaf-two"></div>
+          <span class="sparkle sparkle-one">✦</span><span class="sparkle sparkle-two">✦</span>
+          <p class="art-note">care that feels<br />like a deep breath</p>
+        </div>
+      </section>
+
+      <section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
+        <p class="eyebrow">A kinder philosophy</p>
+        <h2 id="philosophy-title">Good skin days begin with understanding, not perfection.</h2>
+        <div class="principles">
+          <article><span class="principle-icon blush" aria-hidden="true">01</span><h3>Learn your skin</h3><p>Make sense of what your skin is telling you with approachable, thoughtful guidance.</p></article>
+          <article><span class="principle-icon lilac" aria-hidden="true">02</span><h3>Build a gentle rhythm</h3><p>Create simple routines that work with real life—not against it.</p></article>
+          <article><span class="principle-icon mint" aria-hidden="true">03</span><h3>Notice the change</h3><p>Celebrate progress with patience, curiosity, and a little more kindness each day.</p></article>
+        </div>
+      </section>
+
+      <section class="rituals" id="rituals" aria-labelledby="rituals-title">
+        <div><p class="eyebrow">Little rituals</p><h2 id="rituals-title">Care for today. Confidence for tomorrow.</h2></div>
+        <p>Psykin is growing into a welcoming place for dermatologist-informed education, personal routines, and a healthier relationship with your skin.</p>
+      </section>
+
+      <section class="begin" id="begin" aria-labelledby="begin-title">
+        <div class="flower" aria-hidden="true"><span></span></div>
+        <p class="eyebrow">We’re just getting started</p>
+        <h2 id="begin-title">Something beautiful is blooming.</h2>
+        <p>Thoughtful skin support is on its way. Come back soon and grow with us.</p>
+      </section>
     </main>
+
+    <footer><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">P</span><span>Psykin</span></a><p>Made gently, with love.</p><p data-year></p></footer>
+
+    <dialog class="birthday-dialog" aria-labelledby="birthday-title" aria-describedby="birthday-message">
+      <button class="dialog-close" type="button" aria-label="Close birthday message" data-close-dialog>×</button>
+      <div class="confetti" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <p class="birthday-kicker">A little wish, made with love</p>
+      <h2 id="birthday-title">Happy Birthday, Raji! <span aria-hidden="true">♡</span></h2>
+      <p id="birthday-message">May this little website one day become one of the most visited places on the internet—and help countless people live happier, healthier dermatology lives.</p>
+      <p class="birthday-signoff">Here’s to your beautiful idea, and all the people it will help.</p>
+      <button class="button" type="button" data-close-dialog>Let it bloom</button>
+    </dialog>
   </body>
 </html>
